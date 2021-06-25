@@ -2,6 +2,8 @@
 #about-text-para {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   color: black;
   max-width: 50%;
@@ -13,11 +15,20 @@
     line-height: 25px;
 }
 
+#about-text-para h1 {
+  font-size: 50px;
+}
+
 .slide-up {
   width: 400px;
   height: auto;
   animation: fadeIn 1s, slideIn .8s linear;
   margin: auto;
+  animation-delay: 4s;
+}
+
+.front-end-dev {
+  /*  */
 }
 
 @keyframes slideIn {
