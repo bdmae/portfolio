@@ -34,7 +34,7 @@
 .bg-circles .circle-3{
     height: 120px;
     width: 120px;
-    background-color: var(--white);
+    background-color: rgb(203, 221, 255);
     top: 40%;
     right: -60px;
     opacity: 0.6;
