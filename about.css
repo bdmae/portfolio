@@ -1,6 +1,6 @@
 
 #about-text-para {
-  
+
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -28,9 +28,7 @@
   animation-delay: 4s;
 }
 
-.front-end-dev {
-  /*  */
-}
+
 
 @keyframes slideIn {
   0% {

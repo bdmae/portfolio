@@ -82,6 +82,7 @@ ul{
     border-radius: 30px;
     backdrop-filter: var(--backdrop-filter-blur); */
     width: 100vw;
+    padding-top: 100px;
     /* display: none; */
 }
 section.active{
@@ -108,9 +109,12 @@ section.fade-out{
   width: 100%;
 }
 
-.gap {
-  height: 200px;
+.home-text .tech-skills {
+  padding-bottom: 40px;
+  display: flex;
+  align-items: start;
 }
+
 
 /* ABOUT  */
 
@@ -262,7 +266,7 @@ button{
 /* /*glass cards* */
 .glass-skew-up {
   background-color: rgb(172, 194, 230);
-  height: 500px;
+  height: 600px;
   width: 100%;
   z-index: 2;
   backdrop-filter: blur(3rem);
@@ -274,7 +278,7 @@ button{
 
 .glass-skew-down {
   background-color: #9BE6D8;
-  height: auto;
+  height: 600px;
   width: 100%;
   z-index: 2;
   backdrop-filter: blur(3rem);
@@ -283,36 +287,15 @@ button{
   padding:20px;
 }
 
-.section-device {
+/* .section-device {
   opacity: 1;
 
 }
 
 .device-frame .device-content img {
   opacity: 1;
-}
+} */
 
-
-/*project section*/
-
-/*Card grid */
-.project-section {
-  width: 100%;
-}
-
-
-/* De-activate card hover style for tablet/mobiles */
-@media (min-width: 1100px) {
-  .card-hello img:hover {
-    /*customizable*/
-    height: 70%;
-  }
-}
-
-.card-hello img.tapped {
-  /*customizable*/
-  height: 70%;
-}
 
 
 

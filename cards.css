@@ -1,0 +1,105 @@
+
+/* image changes every 4s */
+
+/*Card grid */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 48px;
+}
+
+/*Card Hello*/
+.card-hello {
+  /*fixed*/
+  display: flex;
+  flex-direction: column;
+  /*customizable*/
+  height: 500px;
+  width: 400px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 8px 16px rgb(0,0,0,0.3);
+}
+
+.card-hello img {
+  /*fixed*/
+  width: 100%;
+  object-fit: cover;
+  /*customizable*/
+  object-position: 50% 50%;
+  border-radius: 16px 16px 0 0;
+  height: 30%;
+  transition: height 1s ease;
+}
+
+.card-hello-info {
+  /*fixed*/
+  overflow: hidden;
+  /*customizable*/
+  padding: 16px;
+}
+
+.card-hello-info p {
+  /*customizable*/
+  margin: 16px 0;
+}
+
+/* De-activate card hover style for tablet/mobiles */
+@media (min-width: 1100px) {
+  .card-hello img:hover {
+    /*customizable*/
+    height: 90%;
+  }
+}
+
+.card-hello img.tapped {
+  /*customizable*/
+  height: 80%;
+}
+
+/* Medium tablets and smaller */
+@media (max-width: 1100px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Mobile phones (portrait) adn smaller */
+@media (max-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* body {
+  background:url(http://lorempixel.com/400/400/people/1);
+  animation: chbg 4s infinite alternate;
+  background-size:cover
+}
+@keyframes chbg {
+  0% {
+    background:url(http://lorempixel.com/100/100/people/1);
+  background-size:cover
+  }
+  20% {
+    background:url(http://lorempixel.com/100/100/people/7);
+  background-size:cover
+  }
+  40% {
+    background:url(http://lorempixel.com/100/100/people/6);
+  background-size:cover
+  }
+  60% {
+    background:url(http://lorempixel.com/100/100/people/2);
+  background-size:cover
+  }
+  80% {
+    background:url(http://lorempixel.com/100/100/people/9);
+  background-size:cover
+  }
+  100% {
+    background:url(http://lorempixel.com/100/100/people/8);
+  background-size:cover
+  }
+} */
