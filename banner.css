@@ -1,9 +1,10 @@
 .banner {
   background-size: cover;
+  background-color: #9BE6D8;
   background-position: 50% 76%;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   transform-origin: 100% 0;
-  padding: 150px 0;
+  /* padding: 150px 0; */
   z-index: 2;
   backdrop-filter: var(--backdrop-filter-blur);
   opacity: 1;
@@ -235,6 +236,23 @@ h5{
     -moz-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
 }
+
+
+
+span {
+  z-index: 2;
+}
+#myVideo {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  right: 0;
+}
+
+
 
 @-webkit-keyframes header-small {
     from { width: 0px;
