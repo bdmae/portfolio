@@ -21,6 +21,9 @@
   box-shadow: 0 8px 16px rgb(0,0,0,0.3);
 }
 
+
+
+
 .card-hello img {
   /*fixed*/
   width: 100%;
@@ -54,7 +57,7 @@
 
 .card-hello img.tapped {
   /*customizable*/
-  height: 80%;
+  height: 70%;
 }
 
 /* Medium tablets and smaller */
