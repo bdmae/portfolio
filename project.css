@@ -1,8 +1,10 @@
 
 
-.project-wrap {
+.project-section {
   display: flex;
   flex-direction: row;
+  width: 100vw;
+  height: 100vh;
 }
 
 .connecpet-project-description-left {
@@ -10,24 +12,23 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: black;
-  width: 30%;
+  width: 50%;
 }
 
 .connecpet-project-description-right {
   padding: 20px;
   height: 100%;
-  background-color: cornflowerblue;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   text-align: center;
   color: black;
-  width: 70%;
+  width: 50%;
 }
 
 .image {
@@ -66,6 +67,10 @@
 .img-overlay > * {
   transform: translateY(20px);
   transition: transform 0.25s;
+}
+
+.project-section h1 {
+  font-family: "Poppins", sans-serif;
 }
 /* .img-description {
   top: 0;
