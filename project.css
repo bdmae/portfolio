@@ -20,7 +20,7 @@
 }
 
 .connecpet-project-description-right {
-  padding: 20px;
+  padding: 30px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -72,6 +72,11 @@
 .project-section h1 {
   font-family: "Poppins", sans-serif;
 }
+
+.blur-effect {
+  
+}
+
 /* .img-description {
   top: 0;
   bottom: 0;

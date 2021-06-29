@@ -13,7 +13,7 @@
     --orange: #ffa500;
     --green-yellow: #cddc39;
     --pink-light: #f9fafa;
-    --cyan-light: #c3d4ee;
+    --cyan-light: #e0ecff;
     --white: #ffffff;
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
@@ -266,6 +266,7 @@ button{
 
 /* /*glass cards* */
 .glass-skew-up {
+  padding: 20px;
   background-color: rgb(172, 194, 230);
   height: auto;
   width: 100%;
@@ -282,6 +283,7 @@ button{
   display: flex;
   overflow: hidden;
 }
+
 
 /* .section-device {
   opacity: 1;
