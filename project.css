@@ -7,7 +7,7 @@
   height: 100vh;
 }
 
-.connecpet-project-description-left {
+.project-half {
   padding: 20px;
   height: 100%;
   display: flex;
@@ -19,17 +19,10 @@
   width: 50%;
 }
 
-.connecpet-project-description-right {
-  padding: 30px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  text-align: center;
-  color: black;
-  width: 50%;
+.project-description {
+  width: 70%;
 }
+
 
 .image {
   position: relative;
@@ -74,7 +67,7 @@
 }
 
 .blur-effect {
-  
+
 }
 
 /* .img-description {

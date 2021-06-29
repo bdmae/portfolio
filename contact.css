@@ -1,0 +1,28 @@
+ .contact-section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+ }
+
+.contact-card {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  left: 0;
+}
+
+.contact-card-info {
+  background-color: rgb(172, 194, 230);
+  height: 100%;
+  width: 30%;
+}
+
+
+
