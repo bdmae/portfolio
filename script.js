@@ -25,3 +25,14 @@ tl.from('.js-layout-els > *', {
   duration: 0.3,
   stagger: 0.1
 });
+
+
+//avatar javascript
+
+setTimeout(function() {
+	$(".girl-head").addClass('girl-head-anim');
+},3000)
+
+const connecPetImage = document.querySelectorAll("connecpet-img");
+
+connecPetImage.addEventListener("mouseover", )

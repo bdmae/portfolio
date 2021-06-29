@@ -10,18 +10,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cards.css">
+  <link rel="stylesheet" href="avatar.css">
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="about.css">
   <link rel="stylesheet" href="devices.css">
   <link rel="stylesheet" href="circles.css">
   <link rel="stylesheet" href="banner.css">
   <title>Document</title>
 </head>
 <body>
-  <div class="banner"
-    style="background-image: url(https://res.cloudinary.com/bdmaecloud/image/upload/v1624342218/portfolio_banner_without_code_text_bgb2y9.png);">
+  <div class="banner">
     <div class="container">
-      <!-- <h3>Hi there.</h3>
-      <p>I'm..</p> -->
-      <section class="container">
+      <video autoplay muted loop id="myVideo">
+        <source src="https://cdn.dribbble.com/users/160641/screenshots/14326270/media/ad7ef630db04cc65d3632c69e73ea963.mp4"
+          type="video/mp4">
+      </video>
+      <section class="title-container">
         <h1 class="title">
           <span>Hi.</span>
         </h1>
@@ -29,20 +34,13 @@
           <span>You can call</span>
           <span>me</span>
         </h2>
-        <div class="wrap">
-          <h1>Pure CSS Typing effect.</h1>
-          <p>const brady = "Front End Dev"</p>
-        </div>
-
       </section>
       <div class="my-name-section">
-      <svg height="100" stroke="rgb(172, 194, 230)" stroke-width="2" class="text-line" width="100%"><text x="50%"
+      <svg height="100" stroke="#2f4bc7" stroke-width="2" class="text-line" width="100%"><text x="50%"
           dominant-baseline="middle" text-anchor="middle" y="50%">Brady.</text></svg>
       </div>
     </div>
   </div>
-
-
   <!-- background circles start -->
   <div class="bg-circles">
     <div class="circle-1"></div>
@@ -52,15 +50,19 @@
     <div class="circle-5"></div>
     <div class="circle-6"></div>
   </div>
-
   <!-- background circles end -->
-
   <div class="main">
-    <section class="home-section sec-padding">
-      <div class="container">
-        <div class="row">
+    <div class="container">
+    <section class="home-section">
           <div class="home-text">
-          <svg width="451" height="238" viewBox="0 0 451 238" xmlns="http://www.w3.org/2000/svg">
+            <div class="tech-skills">
+              <img src="https://img.icons8.com/color/48/000000/html-5--v2.png" />
+              <img src="https://img.icons8.com/color/48/000000/css3.png" />
+              <img src="https://img.icons8.com/color/48/000000/javascript.png" />
+              <img src="https://img.icons8.com/dusk/46/000000/php.png" />
+
+            </div>
+          <svg width="451" height="238" viewBox="0 0 451 238" xmlns="https://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">
               <g fill-rule="nonzero">
                 <path
@@ -218,19 +220,9 @@
               </g>
             </g>
           </svg>
-
-            <div class="tech-skills">
-              <img src="https://img.icons8.com/carbon-copy/74/000000/html.png" />
-              <img src="https://img.icons8.com/wired/62/000000/css3.png" />
-              <img src="https://img.icons8.com/wired/64/000000/javascript.png" />
-              <img src="https://img.icons8.com/wired/64/000000/ruby-programming-language.png" />
-              <img src="https://img.icons8.com/wired/64/000000/sql.png" />
-
-            </div>
-            <div class="home-section-buttons sec-padding">
-            <button class="btn">About me</button>
-            <button class="btn">Projects</button>
           </div>
+        </div>
+
    </div>
         </div>
         <section class="about-section">
@@ -238,74 +230,63 @@
               <div class="container">
             <!--about section start-->
             <div class="glass-skew-up">
-            <div class="about-text">
-                <div class="about-text-para">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  </div>
+                <div id="about-text-para">
+
+                    <p>I'm a <div class="Target">
+                      <h1>front end developer</h1>
+                    </div> from the UK</p>
+
+                  with a full-stack skillset and strong devotion to beautiful design that I've had since I can remember.
+
+                I was always creative, but I just hadn't yet discovered a medium to express it through.
+
+
+                I discovered the gloriousness and messiness of creating in the coding world at the start of 2020 and haven't looked back since.
+
+              I have taken it upon myself to try and contribute to an online world where design is inpsiring, UX is prioritised and bounce rate is low.
+                </br>
+                <p>
+                  Who am I outside of coding?
+                </p>
+                I'm someone who's captivated by different languages (particularly Japanese and Korean),
+                  </p>
+               </div>
             </div>
-          </div>
         </section>
         <section class="project-section">
-          <div class="container">
-            <div class="glass-skew-down">
-              <div id="content" class="section section-device">
-                <div id="iphone-x" class="container grid-xl text-center">
-                  <h3 class="s-title"><a href="#iphone-x" class="anchor" aria-hidden="true">
-                  <div class="columns">
-                    <div class="column col-12">
-                      <div class="device device-iphone-x">
-                        <div class="device-frame">
-                            <img class="device-content" src="">
-                          </div>
-                        </div>
-                        <div class="device-stripe"></div>
-                        <div class="device-header"></div>
-                        <div class="device-sensors"></div>
-                        <div class="device-btns"></div>
-                        <div class="device-power"></div>
-                        <div class="device-home"></div>
-                      </div>
-                    </div>
+
+                <div class="connecpet-project-description-left">
+                 <div class="Target">
+                     <h1>ConnecPet</h1>
+                   </div>
+                     <p>
+                  ConnecPet is a Mobile-First application connecting pet owners and pet sitters on a playful SNS platform that myself and my team developed within a two-week time-frame.
+                     </br>
+                      <img src="https://img.icons8.com/color/48/000000/html-5--v2.png" />
+                      <img src="https://img.icons8.com/color/48/000000/css3.png" />
+                      <img src="https://img.icons8.com/color/48/000000/javascript.png" />
+                   </p>
                   </div>
-                </div>
-              </div>
-
-
-
-                <div class="section section-device">
-
-
-                     <div id="macbook">
-
-                        <div class="dots">
-                          <div class="dot tooltip" style="background:#e2e3e4;" data-tooltip="device-silver (default)"></div>
-                          <div class="dot tooltip" style="background:#f7e8dd;" data-tooltip="device-gold"></div>
-                          <div class="dot tooltip" style="background:#facfc9;" data-tooltip="device-rosegold"></div>
-                          <div class="dot tooltip" style="background:#83878a;" data-tooltip="device-spacegray"></div>
-                        </div>
-                      </div>
-
-                        <div class="device device-macbook device-spacegray">
-                          <div class="device-frame">
-                            <img class="device-content" src="images/prankt homepage.png">
-                          </div>
-                          <div class="device-stripe"></div>
-                          <div class="device-header"></div>
-                          <div class="device-sensors"></div>
-                          <div class="device-btns"></div>
-                          <div class="device-power"></div>
-                        </div>
-                      </div>
+                     </div>
+                    <div class="connecpet-project-description-right">
+                  <div class="image">
+                <img class="connecpet-img" src="images/eventspage.jpg" alt="">
+                  <div class="img-overlay">
+                   <p class="img-description">
+                    <div class="home-section-buttons">
+                      <button class="btn">See code</button>
+                      <button class="btn">See site</button>
                     </div>
-                </div>
+                    </p>
+                   </div>
+                 </div>
               </div>
-        </section>
-  </div>
-  <script src="script.js"></script>
+
+         </section>
+
+  <script src="./script.js"></script>
 </body>
 </html>
+
+
+

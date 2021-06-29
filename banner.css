@@ -1,9 +1,9 @@
 .banner {
   background-size: cover;
+  background-color: rgb(172, 194, 230);
   background-position: 50% 76%;
-  /* background-attachment: fixed; */
   transform-origin: 100% 0;
-  padding: 150px 0;
+  /* padding: 150px 0; */
   z-index: 2;
   backdrop-filter: var(--backdrop-filter-blur);
   opacity: 1;
@@ -12,11 +12,11 @@
 
 .banner h1, h2, h3 {
   margin: 0;
-  color: rgb(0, 0, 0);
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  padding-left: 80px;
+  color: white;
+  padding-left: 60px;
   opacity: 1;
   z-index: 4;
+  font-family: "Poppins", sans-serif;
 }
 
 .banner h3 {
@@ -36,12 +36,15 @@
   padding-left: 40px;
 }
 
+/* Brady (name part) */
+
+
 .text-line {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   animation: dash 5s linear forwards, filling 5s ease-in forwards;
   font-size: 100px;
-  padding-right: 16rem;
+  width: 56%;
   margin-top: 40px;
 }
 
@@ -58,8 +61,8 @@
 }
 
 @keyframes filling {
-  0%, 90% { fill: rgb(172, 194, 230);; fill-opacity: 0; }
-  100% { fill:rgb(172, 194, 230);; fill-opacity: 1; }
+  0%, 90% { fill:#2f4bc7;; fill-opacity: 0; }
+  100% { fill:#2f4bc7;; fill-opacity: 1; }
 }
 
 *{
@@ -223,7 +226,7 @@ h5{
 }
 .wrap p {
 	  background: none;
-    font-style: 
+    font-style:
 	  visibility:hidden;
     border-right: 1px solid black;
     -webkit-animation: header-sub 1.5s steps(18),
@@ -235,6 +238,23 @@ h5{
     -moz-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
 }
+
+
+
+span {
+  z-index: 2;
+}
+#myVideo {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  right: 0;
+}
+
+
 
 @-webkit-keyframes header-small {
     from { width: 0px;

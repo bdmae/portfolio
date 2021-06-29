@@ -1,0 +1,69 @@
+
+#about-text-para {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+#about-text-para p {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 700;
+
+}
+
+.slide-up {
+  width: 400px;
+  height: auto;
+  animation: fadeIn 1s, slideIn .8s linear;
+  margin: auto;
+  /* animation-delay: 4s; */
+}
+
+
+.Target h1{
+  font-size: 4rem;
+  color: #2f4bc7;
+  text-align: center;
+  font-weight: 700;
+
+}
+
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(400px);
+    animation-timing-function: ease-out;
+  }
+  60% {
+    transform: translateY(-30px);
+    animation-timing-function: ease-in;
+  }
+  80% {
+    transform: translateY(10px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
