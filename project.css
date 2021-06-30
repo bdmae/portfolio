@@ -2,21 +2,20 @@
 
 .project-section {
   display: flex;
-  flex-direction: row;
-  width: 100vw;
-  height: 100vh;
+  flex-direction: column;
 }
 
 .project-half {
   padding: 20px;
-  height: 100%;
+  /* height: 500px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: black;
-  width: 50%;
+  /* width: 50%; */
+  margin: 30px;
 }
 
 .project-description {
@@ -24,10 +23,16 @@
 }
 
 
-.image {
+.image-mobile {
   position: relative;
   width: 260px;
 }
+
+.image-web {
+  position: relative;
+  width: 500px;
+}
+
 
 
 .connecpet-img {
@@ -66,9 +71,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-.blur-effect {
 
-}
+
 
 /* .img-description {
   top: 0;
@@ -89,3 +93,25 @@
   opacity: 0.7;
 } */
 
+/* ADD MEDIA QUERIES HERE */
+
+@media (min-width: 992px) {
+
+.project-section {
+  flex-direction: row;
+  width: 100vw;
+  /* height: 100vh; */
+}
+
+.project-half {
+  /* height: 500px; */
+  width: 50%;
+}
+
+/* 576
+768
+992 */
+/* min width */
+
+
+/* max-width: (you can put this right into an element */

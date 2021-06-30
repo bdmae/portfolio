@@ -9,6 +9,9 @@
   background-size: cover;
   background-position: center;
   height: 100%;
+  background-color: white;
+  opacity: 0.9;
+  background-filter: blur(4rem);
   width: 70%;
   display: flex;
   justify-content: center;
