@@ -1,5 +1,10 @@
 
 
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .project-section {
   display: flex;
   flex-direction: column;
@@ -19,7 +24,7 @@
 }
 
 .project-description {
-  width: 70%;
+  width: 90%;
 }
 
 
@@ -106,7 +111,10 @@
 .project-half {
   /* height: 500px; */
   width: 50%;
+ }
 }
+
+
 
 /* 576
 768
