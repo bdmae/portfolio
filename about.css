@@ -1,4 +1,9 @@
 
+.about-container {
+  display: flex;
+  flex-direction: row;
+}
+
 #about-text-para {
   padding: 20px;
   display: flex;
@@ -7,18 +12,20 @@
   align-items: center;
   text-align: center;
   color: black;
-  max-width: 100%;
+  width: 50%;
   font-family: "Poppins", sans-serif;
 }
 
+.about-title-container {
+  display: flex;
+  flex-direction: column;
+}
 
 
-#about-text-para p {
-  font-size: 2rem;
-  letter-spacing: 2px;
-  text-align: center;
-  font-weight: 700;
-
+#about-hobbies-para {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .slide-up {

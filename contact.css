@@ -11,6 +11,7 @@
   height: 100%;
   background-color: #f6edd9;
   width: 70%;
+  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,11 +27,11 @@
   width: 36%;
   display: flex;
   justify-content: center;
+  z-index: 2;
   align-items: center;
   color: white;
   font-size: 30px;
   padding-left: 30px;
-  overflow-x: hidden;
 }
 
 #contact-svg {
@@ -137,6 +138,8 @@ form .title {
     left: 1.5rem;
     top: 1.1rem;
 }
+
+
 
 
 
